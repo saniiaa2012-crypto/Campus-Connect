@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary":"#0060a9","tertiary-fixed":"#5af9f3","on-secondary-container":"#00345f","on-primary-fixed-variant":"#4029ba","secondary-container":"#3f9eff","inverse-on-surface":"#f1efff","surface-variant":"#e0e0ff","on-error":"#ffffff","primary-container":"#6c5ce7","surface-container":"#eeecff","on-surface-variant":"#474554","on-tertiary":"#ffffff","error-container":"#ffdad6","background":"#fbf8ff","on-secondary-fixed-variant":"#004881","on-secondary":"#ffffff","secondary-fixed":"#d3e4ff","on-secondary-fixed":"#001c38","on-surface":"#171931","inverse-surface":"#2c2e47","primary":"#5341cd","error":"#ba1a1a","surface-container-lowest":"#ffffff","on-error-container":"#93000a","inverse-primary":"#c6bfff","on-tertiary-fixed-variant":"#00504e","surface-dim":"#d7d7f8","surface-container-low":"#f4f2ff","outline-variant":"#c8c4d7","primary-fixed-dim":"#c6bfff","on-tertiary-fixed":"#00201f","on-background":"#171931","surface-bright":"#fbf8ff","on-primary-container":"#faf6ff","primary-fixed":"#e4dfff","outline":"#787586","on-tertiary-container":"#d9fffc","tertiary-container":"#007f7c","on-primary":"#ffffff","tertiary":"#006461","surface":"#fbf8ff","on-primary-fixed":"#160066","tertiary-fixed-dim":"#2edcd7","secondary-fixed-dim":"#a2c9ff","surface-container-high":"#e7e6ff","surface-tint":"#5847d2","surface-container-highest":"#e0e0ff"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-sm":"0.5rem","space-lg":"1.5rem","space-md":"1rem","margin":"2rem","gutter-mobile":"1rem","space-xs":"0.25rem","gutter":"1.5rem","space-xl":"2.5rem","margin-mobile":"1rem"},fontFamily:{"headline-lg-mobile":["Plus Jakarta Sans"],"label-md":["Inter"],"headline-lg":["Plus Jakarta Sans"],"body-md-medium":["Inter"],"display-md":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"body-lg":["Inter"],"headline-sm":["Plus Jakarta Sans"],"body-lg-medium":["Inter"],"body-md":["Inter"],"display-lg":["Plus Jakarta Sans"],"display-md-mobile":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"]},fontSize:{"headline-lg-mobile":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"700"}],"label-md":["13px",{"lineHeight":"16px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-md-medium":["14px",{"lineHeight":"20px","fontWeight":"500"}],"display-md":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"600"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"24px","fontWeight":"600"}],"body-lg-medium":["16px",{"lineHeight":"24px","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"800"}],"display-md-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.02em","fontWeight":"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1200px] mx-auto px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-xs" data-path="home" href="#"><img alt="CampusConnect Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VG08dIcTSaEsTLXu_mSVOcj6bMApG8t0By4YbGJd6YctxpRwlRnH2XYPRu5x_TTvcayLBS3OtFQnhCjZSIdaxo9yZ60rtlOs37qy57VtvGR_crIB1stW13vxQKEfzo20QmIVlb2xOUPKFKDWXadUa4n9RPPACnZQNcI9zHut8fQALy7IW1BihncYutwshJFc1pqDDDtRI06QGLa4jnrg0nwPL1Cvvmwig-kDoM2xEBzTGUOPPYyG7rkQ08"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">CampusConnect</span></a><button class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-low hover:bg-surface-container-high transition-colors font-label-sm text-label-sm text-on-surface"><span class="material-symbols-outlined text-[16px] text-primary">location_on</span><span>Delhi Tech &amp; NCR Campuses</span><span class="material-symbols-outlined text-[16px] text-outline">expand_more</span></button></div><nav class="hidden lg:flex items-center gap-1" data-active-classes="bg-primary-container text-on-primary-container rounded-lg"><a class="px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="home" href="#">Home</a><a aria-current="page" class="px-3 py-2 font-body-md-medium transition-all bg-primary-container text-on-primary-container rounded-lg" data-path="opportunities" href="#">Opportunities</a><a class="relative px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all flex items-center gap-1.5" data-path="campus-fix" href="#"><span>CampusFix</span><span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-[#E6F8F4] text-[#00B894] font-label-sm text-[10px] leading-tight font-semibold"><span class="w-1.5 h-1.5 rounded-full bg-[#00B894] animate-pulse"></span>Active</span></a><a class="px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="campus-services" href="#">Campus Services</a><a class="px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="events" href="#">Events</a><a class="px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="pricing" href="#">Pricing</a><a class="px-3 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-all" data-path="about" href="#">About</a></nav><div class="flex items-center gap-space-xs sm:gap-space-sm"><button aria-label="Search campus opportunities" class="flex items-center justify-center w-10 h-10 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">search</span></button><button aria-label="Notifications" class="relative flex items-center justify-center w-10 h-10 rounded-lg text-on-surface-variant hover:bg-surface-container-low hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2 right-2 flex items-center justify-center w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px]">3</span></button><div class="hidden sm:flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer"><span class="font-label-md text-label-md text-on-surface">Dashboards</span><span class="material-symbols-outlined text-[18px] text-outline">expand_more</span></div><a class="hidden md:inline-flex items-center px-3.5 py-2 rounded-lg font-body-md-medium text-body-md-medium text-on-surface hover:bg-surface-container-low transition-colors" data-path="login" href="#">Log In</a><a class="inline-flex items-center px-4 py-2 rounded-lg bg-primary-container text-on-primary-container hover:bg-primary font-body-md-medium text-body-md-medium shadow-sm transition-all" data-path="post-opportunity" href="#">Post Opportunity</a><div class="relative flex items-center ml-1"><img alt="Profile" class="w-9 h-9 rounded-full object-cover ring-2 ring-surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEdqdD_ufYu2Z96zbW40C5AX-mVRR5Z8Qguy_NS7dkJlkwpA4h2nxTLnz0hMIiy9aI1w0u7ifmDk3AcpyAb5vTPj59850lni3AzW-DAhGJKIMSbeAXnaY8e3MsuO2mgjkpR83oYsbBtUW-SttNO_nE6v4t4ZRJDZG4IqfZoICuZ04I8TW-yK8I_U1dYAaFVNN-Y-9VR0vlPVO_AEXRwI-J3RxLD0AzdH3S35IZcMhuVpbXLPvCPQtJ2g"/><span class="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-[#00B894] ring-2 ring-surface"></span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow & Grid Layer -->
+<div class="relative w-full overflow-hidden bg-surface">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[980px] h-96 bg-gradient-to-b from-primary-fixed via-surface-container to-transparent rounded-full blur-3xl pointer-events-none opacity-40"></div>
+<div class="absolute top-12 -left-20 w-80 h-80 bg-secondary-fixed-dim/30 rounded-full blur-2xl pointer-events-none"></div>
+<div class="absolute top-36 -right-24 w-96 h-96 bg-tertiary-fixed-dim/20 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative max-w-[1200px] mx-auto px-gutter pt-8 pb-10 sm:pt-12 sm:pb-14">
+<!-- Breadcrumb & Status Pill -->
+<div class="flex flex-wrap items-center justify-between gap-4 mb-6">
+<div class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">school</span>
+<span>CampusConnect</span>
+</a>
+<span class="text-outline-variant">/</span>
+<span class="text-primary font-bold">Opportunities Marketplace</span>
+</div>
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest shadow-sm">
+<span class="flex h-2 w-2 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-tertiary"></span>
+</span>
+<span class="font-label-sm text-label-sm text-on-surface tracking-tight">
+<strong class="text-primary font-semibold">2,480</strong> Active Listings Today • <span class="text-tertiary font-semibold">100% Verified Employers</span>
+</span>
+</div>
+</div>
+<!-- Header Hero Showcase -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-10">
+<div class="lg:col-span-8 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]">bolt</span>
+<span>Curated for Indian Engineering, Management &amp; Design Campuses</span>
+</div>
+<h1 class="font-display-lg text-display-lg-mobile sm:text-display-lg text-on-surface tracking-tight">
+            Find your next <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-container to-secondary">opportunity.</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Verified internships, part-time roles, skill projects, and campus jobs with transparent stipends across India. Zero ghost applications, zero unverified portals.
+          </p>
+</div>
+<!-- Metric Callout Card -->
+<div class="lg:col-span-4 bg-surface-container-lowest p-5 rounded-2xl shadow-sm flex items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Average Monthly Stipend</div>
+<div class="font-headline-lg text-headline-lg text-on-surface font-extrabold flex items-baseline gap-1">
+<span>₹14,250</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ mo</span>
+</div>
+<div class="font-body-sm text-body-sm text-tertiary flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">trending_up</span>
+<span>+18.4% YoY campus hiring growth</span>
+</div>
+</div>
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[28px]">payments</span>
+</div>
+</div>
+</div>
+<!-- Comprehensive Search & Filter Console -->
+<div class="bg-surface-container-lowest rounded-2xl p-4 sm:p-6 shadow-md space-y-5">
+<!-- Main Search Bar -->
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-4 text-on-surface-variant text-[24px]">search</span>
+<input class="w-full h-14 pl-13 pr-32 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md transition-all focus:bg-surface-container-lowest focus:shadow-[0_0_0_3px_rgba(108,92,231,0.25)] outline-none" id="searchInput" placeholder="Search internships, jobs, projects (e.g. Frontend, Marketing, Content)..." type="text"/>
+<button class="absolute right-2 px-5 py-2.5 rounded-lg bg-primary text-on-primary font-body-md-medium text-body-md-medium hover:bg-primary/90 transition-all shadow-sm flex items-center gap-1.5">
+<span>Find</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- Type Selector Tabs -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 text-sm no-scrollbar">
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-primary text-on-primary shadow-sm transition-all flex items-center gap-1.5 shrink-0">
+<span class="material-symbols-outlined text-[16px]">apps</span>
+<span>All Roles</span>
+<span class="px-1.5 py-0.2 rounded-full bg-white/20 text-[10px]">2,480</span>
+</button>
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-all shrink-0">
+            Internships
+          </button>
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-all shrink-0">
+            Part-time
+          </button>
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-all shrink-0">
+            Campus Jobs
+          </button>
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-all shrink-0">
+            Micro Projects
+          </button>
+<button class="px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface hover:bg-surface-container-high transition-all shrink-0 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-tertiary">star</span>
+<span>Featured Fast-Track</span>
+</button>
+</div>
+<!-- Multi-Select Filters Row -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 pt-2">
+<!-- Location Dropdown -->
+<div class="relative">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1 font-medium">Location</label>
+<div class="relative">
+<select class="w-full h-10 px-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(108,92,231,0.2)] cursor-pointer">
+<option selected="">All India</option>
+<option>Delhi NCR</option>
+<option>Panipat, HR</option>
+<option>Rohtak, HR</option>
+<option>Bengaluru, KA</option>
+<option>Mumbai, MH</option>
+<option>Pune, MH</option>
+<option>Chandigarh Tri-city</option>
+<option>Remote India</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<!-- Mode Dropdown -->
+<div class="relative">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1 font-medium">Work Mode</label>
+<div class="relative">
+<select class="w-full h-10 px-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(108,92,231,0.2)] cursor-pointer">
+<option selected="">Any Mode</option>
+<option>Remote Only</option>
+<option>Hybrid</option>
+<option>On-site Campus/Office</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<!-- Compensation Dropdown -->
+<div class="relative">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1 font-medium">Stipend</label>
+<div class="relative">
+<select class="w-full h-10 px-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(108,92,231,0.2)] cursor-pointer">
+<option selected="">Paid Only</option>
+<option>₹5,000+ / mo</option>
+<option>₹10,000+ / mo</option>
+<option>₹20,000+ / mo</option>
+<option>Fixed Project Bounty</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<!-- Skill Filter -->
+<div class="relative">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1 font-medium">Core Skill</label>
+<div class="relative">
+<select class="w-full h-10 px-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(108,92,231,0.2)] cursor-pointer">
+<option selected="">All Skills</option>
+<option>React / Frontend</option>
+<option>Python &amp; ML</option>
+<option>Social Media &amp; Reels</option>
+<option>Figma / UI/UX</option>
+<option>Content Writing</option>
+<option>Campus Marketing</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<!-- Duration -->
+<div class="relative">
+<label class="block font-label-sm text-label-sm text-on-surface-variant mb-1 font-medium">Duration</label>
+<div class="relative">
+<select class="w-full h-10 px-3 pr-8 rounded-lg bg-surface-container-low text-on-surface font-body-sm text-body-sm appearance-none outline-none focus:bg-surface-container-lowest focus:shadow-[0_0_0_2px_rgba(108,92,231,0.2)] cursor-pointer">
+<option selected="">Any Duration</option>
+<option>1 Month Sprint</option>
+<option>2 Months</option>
+<option>3 - 6 Months</option>
+<option>Flexible Academic Credit</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">expand_more</span>
+</div>
+</div>
+<!-- Quick Reset / Filter Action -->
+<div class="flex items-end">
+<button class="w-full h-10 rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-body-sm-medium text-body-sm-medium transition-all flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px]">tune</span>
+<span>Reset Filters</span>
+</button>
+</div>
+</div>
+<!-- Active Badges Rail -->
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active Filters:</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span>Verified Stipend Only</span>
+<button class="hover:text-primary"><span class="material-symbols-outlined text-[13px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span>Engineering &amp; Management</span>
+<button class="hover:text-primary"><span class="material-symbols-outlined text-[13px]">close</span></button>
+</span>
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm">
+<span>Active within 48 hrs</span>
+<button class="hover:text-primary"><span class="material-symbols-outlined text-[13px]">close</span></button>
+</span>
+<button class="font-label-sm text-label-sm text-primary hover:underline ml-1">Clear all</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Marketplace Listings Section -->
+<div class="max-w-[1200px] mx-auto px-gutter py-10 w-full">
+<!-- View Switcher & Counter -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Curated Listings for You</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Matches based on your verified university profile: B.Tech / BBA, Delhi-NCR network</p>
+</div>
+<div class="flex items-center gap-3 self-stretch sm:self-auto">
+<div class="flex items-center gap-1.5 bg-surface-container-lowest p-1 rounded-xl shadow-sm">
+<button class="px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-container font-label-sm text-label-sm flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[16px]">grid_view</span>
+<span>Grid</span>
+</button>
+<button class="px-3 py-1.5 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container font-label-sm text-label-sm flex items-center gap-1 transition-colors">
+<span class="material-symbols-outlined text-[16px]">view_list</span>
+<span>Compact</span>
+</button>
+</div>
+<div class="relative">
+<select class="h-10 px-3.5 pr-8 rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm shadow-sm appearance-none outline-none cursor-pointer">
+<option>Sort: Highest Stipend</option>
+<option selected="">Sort: Most Recent</option>
+<option>Sort: Ending Soonest</option>
+<option>Sort: Fewest Applicants</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 pointer-events-none text-on-surface-variant text-[16px]">sort</span>
+</div>
+</div>
+</div>
+<!-- Cards Grid (Authentic Indian Collegiate Context) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- CARD 1: BrightEdge Digital -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-primary to-primary-container absolute top-0 left-0"></div>
+<div>
+<!-- Header: Logo, Title, Bookmark -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm font-bold text-primary">
+                BE
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">Marketing Intern</div>
+<div class="font-body-md text-body-md text-on-surface-variant">BrightEdge Digital</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">location_on</span>
+<span>Panipat, Haryana</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>2 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-sm text-[11px] text-on-surface">Hybrid</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">SEO</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Social Media</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Growth</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 border-t border-transparent bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Fixed Monthly Stipend</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹8,000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ mo</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>24 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 2: Zomato Campus Partner (Featured) -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-secondary-container to-primary absolute top-0 left-0"></div>
+<div>
+<!-- Top badge -->
+<div class="flex items-center justify-between mb-2">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-[10px] uppercase font-bold tracking-wide">
+              Fast Hiring Partner
+            </span>
+<span class="font-label-sm text-[11px] text-error font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">alarm</span>
+<span>2 days left</span>
+</span>
+</div>
+<!-- Header -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-error-container/60 text-error flex items-center justify-center font-headline-sm text-headline-sm font-black">
+                Z
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">Frontend Developer Intern</div>
+<div class="font-body-md text-body-md text-on-surface-variant">Zomato Campus Partner</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">apartment</span>
+<span>Gurugram, HR</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>3 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed/40 font-label-sm text-[11px] text-secondary">Remote</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">React</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Tailwind</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Next.js</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Monthly Performance Stipend</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹18,000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ mo</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>86 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 3: Coding Ninjas Campus Student Ambassador -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-tertiary-fixed-dim to-tertiary absolute top-0 left-0"></div>
+<div>
+<!-- Header -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-orange-100 text-orange-600 flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                CN
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">Campus Student Ambassador</div>
+<div class="font-body-md text-body-md text-on-surface-variant">Coding Ninjas</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">school</span>
+<span>Delhi NCR Campuses</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>4 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-sm text-[11px] text-on-surface">On-site</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Leadership</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Events</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Networking</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Base + Target Incentives</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹6,000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">+ Perks</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>45 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 4: Nexa Creatives -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-primary to-secondary absolute top-0 left-0"></div>
+<div>
+<!-- Header -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                NC
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">Graphic Design &amp; UI Trainee</div>
+<div class="font-body-md text-body-md text-on-surface-variant">Nexa Creatives</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">location_on</span>
+<span>Chandigarh</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>2 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-sm text-[11px] text-on-surface">Hybrid</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Figma</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Photoshop</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Canva</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Fixed Stipend</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹10,000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ mo</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>31 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 5: UrbanLeaf Organics -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-tertiary to-secondary-fixed-dim absolute top-0 left-0"></div>
+<div>
+<!-- Header -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-teal-100 text-teal-800 flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                UO
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">Content &amp; Social Media Associate</div>
+<div class="font-body-md text-body-md text-on-surface-variant">UrbanLeaf Organics</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">location_on</span>
+<span>Sonipat / Rohtak</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>3 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed/40 font-label-sm text-[11px] text-secondary">Remote</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Hindi &amp; English Copy</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Reels</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Creative</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Monthly Stipend</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹7,500 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ mo</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>19 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 6: EduTech Labs AI/ML -->
+<article class="group bg-surface-container-lowest rounded-2xl p-6 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200 flex flex-col justify-between relative overflow-hidden">
+<div class="h-1.5 w-full bg-gradient-to-r from-primary to-primary-fixed-dim absolute top-0 left-0"></div>
+<div>
+<!-- Header -->
+<div class="flex items-start justify-between gap-3 mb-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-blue-100 text-blue-800 flex items-center justify-center font-headline-sm text-headline-sm font-bold">
+                ET
+              </div>
+<div>
+<div class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors line-clamp-1">AI/ML Project Contributor</div>
+<div class="font-body-md text-body-md text-on-surface-variant">EduTech Labs</div>
+</div>
+</div>
+<button aria-label="Bookmark listing" class="w-9 h-9 rounded-full bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant hover:text-primary flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+</div>
+<!-- Location & Details Chips -->
+<div class="flex flex-wrap items-center gap-2 mb-4 font-body-sm text-body-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">apartment</span>
+<span>Bengaluru / Remote</span>
+</span>
+<span>•</span>
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px] text-outline">schedule</span>
+<span>2 Months</span>
+</span>
+<span>•</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed/40 font-label-sm text-[11px] text-secondary">Remote</span>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-1.5 mb-6">
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">Python</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">PyTorch</span>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface">LLMs</span>
+</div>
+</div>
+<!-- Footer / Action Area -->
+<div class="pt-4 bg-surface-container-low/40 -mx-6 -mb-6 p-6 rounded-b-2xl">
+<div class="flex items-center justify-between mb-4">
+<div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Project Milestone Grant</div>
+<div class="font-headline-sm text-headline-sm text-on-surface font-bold">₹15,000 <span class="font-body-sm text-body-sm text-on-surface-variant font-normal">/ mo</span></div>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed/30 text-tertiary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+<span>Verified</span>
+</span>
+</div>
+<div class="flex items-center justify-between gap-3">
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">group</span>
+<span>72 applicants</span>
+</span>
+<button class="px-4 py-2 rounded-lg bg-primary text-on-primary hover:bg-primary/90 font-label-md text-label-md transition-all shadow-sm flex items-center gap-1">
+<span>View Opportunity</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+<!-- Pagination Controls -->
+<div class="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 py-4 bg-surface-container-lowest px-6 rounded-2xl shadow-sm">
+<div class="font-body-sm text-body-sm text-on-surface-variant text-center sm:text-left">
+        Showing <span class="font-semibold text-on-surface">1 - 6</span> of <span class="font-semibold text-on-surface">2,480</span> opportunities across 240+ campuses
+      </div>
+<div class="flex items-center gap-1.5">
+<button class="w-9 h-9 rounded-lg bg-surface-container text-on-surface-variant hover:bg-surface-container-high flex items-center justify-center transition-colors disabled:opacity-40" disabled="">
+<span class="material-symbols-outlined text-[18px]">chevron_left</span>
+</button>
+<button class="w-9 h-9 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-semibold flex items-center justify-center">1</button>
+<button class="w-9 h-9 rounded-lg hover:bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center justify-center transition-colors">2</button>
+<button class="w-9 h-9 rounded-lg hover:bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center justify-center transition-colors">3</button>
+<span class="px-1 text-on-surface-variant">...</span>
+<button class="w-9 h-9 rounded-lg hover:bg-surface-container text-on-surface font-label-sm text-label-sm flex items-center justify-center transition-colors">41</button>
+<button class="w-9 h-9 rounded-lg bg-surface-container text-on-surface hover:bg-surface-container-high flex items-center justify-center transition-colors">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Campus Campus Life & Employer Split Banner -->
+<div class="mt-14 relative overflow-hidden rounded-3xl bg-gradient-to-br from-primary via-primary-container to-secondary text-on-primary p-8 sm:p-12 shadow-xl">
+<div class="absolute -right-16 -bottom-16 w-96 h-96 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<div class="lg:col-span-8 space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur font-label-sm text-label-sm text-white">
+<span class="material-symbols-outlined text-[15px]">campaign</span>
+<span>Fast Turnaround Hiring</span>
+</div>
+<h3 class="font-display-md text-display-md-mobile sm:text-display-md text-white font-extrabold tracking-tight">
+            Are you an employer, startup, or student club?
+          </h3>
+<p class="font-body-lg text-body-lg text-white/85 max-w-xl">
+            Post an opportunity in under 2 minutes. Reach verified undergraduates, postgraduate researchers, and creative leaders across 800+ Indian universities today.
+          </p>
+<div class="flex flex-wrap items-center gap-6 pt-2 font-body-sm text-body-sm text-white/90">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">verified_user</span>
+<span>Zero Placement Commission</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">bolt</span>
+<span>Direct WhatsApp &amp; Portal Review</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">verified</span>
+<span>College ID Verified Candidates</span>
+</div>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col gap-3 justify-center">
+<a class="px-6 py-3.5 rounded-xl bg-surface-container-lowest text-primary hover:bg-surface-container font-headline-sm text-headline-sm font-semibold text-center transition-all shadow-md flex items-center justify-center gap-2" href="#">
+<span>Post an Opportunity in 2 mins</span>
+<span class="material-symbols-outlined text-[18px]">add_circle</span>
+</a>
+<a class="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-body-md-medium text-body-md-medium text-center transition-all backdrop-blur flex items-center justify-center gap-2" href="#">
+<span>Schedule Campus Drive</span>
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Indian Campus Ecosystem Trust Banner -->
+<div class="mt-14 pt-8 pb-4 text-center">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant mb-6">
+        Trusted by Student Placement Cells &amp; Industry Leaders Nationwide
+      </p>
+<div class="flex flex-wrap items-center justify-center gap-8 sm:gap-14 opacity-70 grayscale hover:grayscale-0 transition-all duration-300">
+<span class="font-headline-sm text-headline-sm font-extrabold tracking-tighter text-on-surface">IIT BOMBAY</span>
+<span class="font-headline-sm text-headline-sm font-extrabold tracking-tighter text-on-surface">DTU DELHI</span>
+<span class="font-headline-sm text-headline-sm font-extrabold tracking-tighter text-on-surface">BITS PILANI</span>
+<span class="font-headline-sm text-headline-sm font-extrabold tracking-tighter text-on-surface">NIT KURUKSHETRA</span>
+<span class="font-headline-sm text-headline-sm font-extrabold tracking-tighter text-on-surface">THAPAR INST</span>
+</div>
+</div>
+</div>
+<script>
+    // Micro-interactions for bookmark toggles and filter tabs
+    document.querySelectorAll('button[aria-label="Bookmark listing"]').forEach(button => {
+      button.addEventListener('click', function(e) {
+        e.preventDefault();
+        const icon = this.querySelector('.material-symbols-outlined');
+        if (icon.textContent === 'bookmark') {
+          icon.textContent = 'bookmark_added';
+          this.classList.add('text-primary', 'bg-primary-fixed');
+          this.classList.remove('text-on-surface-variant', 'bg-surface-container-low');
+        } else {
+          icon.textContent = 'bookmark';
+          this.classList.remove('text-primary', 'bg-primary-fixed');
+          this.classList.add('text-on-surface-variant', 'bg-surface-container-low');
+        }
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_12px_rgba(0,0,0,0.03)]"><div class="max-w-[1200px] mx-auto px-gutter pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-space-lg mb-space-xl"><div class="lg:col-span-2 space-y-space-md"><div class="flex items-center gap-space-xs"><img alt="CampusConnect Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VG08dIcTSaEsTLXu_mSVOcj6bMApG8t0By4YbGJd6YctxpRwlRnH2XYPRu5x_TTvcayLBS3OtFQnhCjZSIdaxo9yZ60rtlOs37qy57VtvGR_crIB1stW13vxQKEfzo20QmIVlb2xOUPKFKDWXadUa4n9RPPACnZQNcI9zHut8fQALy7IW1BihncYutwshJFc1pqDDDtRI06QGLa4jnrg0nwPL1Cvvmwig-kDoM2xEBzTGUOPPYyG7rkQ08"/><span class="font-headline-sm text-headline-sm text-primary">CampusConnect</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">India's premier college ecosystem uniting verified campus talent, real-time maintenance reporting, student amenities, and high-impact micro-internships.</p><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface"><span class="text-[14px]">🇮🇳</span><span>Engineered for 800+ Indian Campuses</span></div></div><div><h4 class="font-headline-sm text-[16px] text-on-surface mb-space-md">Platform</h4><ul class="space-y-2.5"><li data-path="opportunities"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Opportunities</a></li><li data-path="campus-fix"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">CampusFix</a></li><li data-path="events"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Events &amp; Fests</a></li><li data-path="campus-services"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Campus Services</a></li></ul></div><div><h4 class="font-headline-sm text-[16px] text-on-surface mb-space-md">For Students</h4><ul class="space-y-2.5"><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Find Internships</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Mini Profile</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Part-Time Jobs</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Skill Projects</a></li></ul></div><div><h4 class="font-headline-sm text-[16px] text-on-surface mb-space-md">For Businesses</h4><ul class="space-y-2.5"><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Post Internship</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Find Student Talent</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Student Offers</a></li><li><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Campus Partnerships</a></li></ul></div><div><h4 class="font-headline-sm text-[16px] text-on-surface mb-space-md">Institutions</h4><ul class="space-y-2.5"><li data-path="faculty-portal"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Faculty Portal</a></li><li data-path="campusfix-admin"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">CampusFix Admin</a></li><li data-path="department-notices"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Department Notices</a></li><li data-path="pricing"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Institutional Plans</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant text-center md:text-left">© 2026 CampusConnect Technologies India Pvt Ltd. All rights reserved. Made for Indian Universities.</p><div class="flex items-center gap-space-sm"><a aria-label="Community Feed" class="w-9 h-9 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">hub</span></a><a aria-label="Global Campus Network" class="w-9 h-9 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a aria-label="Contact Mail" class="w-9 h-9 rounded-lg flex items-center justify-center text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">alternate_email</span></a></div></div></div></footer></body></html>
